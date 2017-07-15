@@ -30,6 +30,7 @@
 #' exdata <- preprocessSC(exdata)
 #' logdat <- log(exdata+1)
 #' cls <- getCls(logdat)
+#' 
 #' logdat_imp <- DrImpute(logdat, cls = cls)
 #' 
 
