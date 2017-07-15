@@ -4,7 +4,7 @@
 #' 
 #' @param X Gene expression matrix (Gene by Cell). 
 #'
-#' @param min.expressed.genes Cell level filtering criteria. For a given cell, if the number of expressed genes are less than min.expressed.gene, we filter it out.  
+#' @param min.expressed.gene Cell level filtering criteria. For a given cell, if the number of expressed genes are less than min.expressed.gene, we filter it out.  
 #'
 #' @param min.expressed.cell Gene level filtering criteria. For a given gene, if the number of expressed cells are less than min.expressed.cell, we filter it out.  
 #'
@@ -25,7 +25,7 @@
 #' data(usoskin_ex)
 #' exdata <- preprocessSC(exdata)
 #'
-#' @seealso \code{\link{SCimpute}}
+#' @seealso \code{\link{DrImpute}}
 
 preprocessSC <- function(X, min.expressed.gene = 0, min.expressed.cell = 2, max.expressed.ratio = 1, normalize.by.size.effect = FALSE){
 

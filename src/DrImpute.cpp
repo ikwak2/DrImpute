@@ -14,8 +14,8 @@ arma::mat imp0clC (const arma::mat X, arma::mat cls) {
   const int n_cls = cls.n_rows;
   //  const int npow = powV.n_rows;
   // containers
-  printf("\n-----------------------------------------------------------\n");
-  printf("Number of genes : %d \nNumber of cells : %d \nNumber of clusterings to average : %d\n", n_gene, n_cell, n_cls);
+  //  printf("\n-----------------------------------------------------------\n");
+  //  printf("Number of genes : %d \nNumber of cells : %d \nNumber of clusterings to average : %d\n", n_gene, n_cell, n_cls);
   arma::mat tpX(n_gene, n_cell);
   tpX.fill(0);
 
@@ -25,7 +25,7 @@ arma::mat imp0clC (const arma::mat X, arma::mat cls) {
   }
 
   for(int k=0 ; k < n_cls ; k ++ ) {
-    printf("processing cluster set : %d \n", k+1 );
+    //    printf("processing cluster set : %d \n", k+1 );
     arma::mat Xn = X;    
     int km = cls.row(k).max() ;
     for(int i = 0 ; i < n_gene ; i ++ ) {
@@ -72,8 +72,8 @@ arma::mat imp0clC2 (const arma::mat X, arma::mat cls) {
   const int n_cls = cls.n_rows;
   //  const int npow = powV.n_rows;
   // containers
-  printf("\n-----------------------------------------------------------\n");
-  printf("Number of genes : %d \nNumber of cells : %d \nNumber of clusterings to average : %d\n", n_gene, n_cell, n_cls);
+  //  printf("\n-----------------------------------------------------------\n");
+  //  printf("Number of genes : %d \nNumber of cells : %d \nNumber of clusterings to average : %d\n", n_gene, n_cell, n_cls);
   arma::mat tpX(n_gene, n_cell);
   tpX.fill(0);
 
@@ -83,7 +83,7 @@ arma::mat imp0clC2 (const arma::mat X, arma::mat cls) {
   }
 
   for(int k=0 ; k < n_cls ; k ++ ) {
-    printf("processing cluster set : %d \n", k+1 );
+    //    printf("processing cluster set : %d \n", k+1 );
     arma::mat Xn = X;    
     int km = cls.row(k).max() ;
     for(int i = 0 ; i < n_gene ; i ++ ) {

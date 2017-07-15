@@ -2,6 +2,6 @@ export(DrImpute)
 export(getCls)
 export(preprocessSC)
 
-importFrom("stats", "prcomp", "cor", "dist", "kmeans")
+importFrom("stats", "prcomp", "cor", "dist", "median", "kmeans")
 
 useDynLib(DrImpute)

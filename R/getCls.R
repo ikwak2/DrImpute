@@ -6,7 +6,7 @@
 #'
 #' @param ks Number of cell clustering groups. Default set to ks = 10:15. 
 #'
-#' @param dist Distribution matrices to use. Default is set to c("spearman", "pearson"). "euclidean" can be added as well. 
+#' @param dists Distribution matrices to use. Default is set to c("spearman", "pearson"). "euclidean" can be added as well. 
 #'
 #' @param dim.reduc.prop Proportion of principal components to use for K-means clustering.
 #'
@@ -25,7 +25,7 @@
 #' logdat <- log(exdata+1)
 #' cls <- getCls(logdat)
 #'
-#' @seealso  \code{\link{SCimpute}}  \code{\link{preprocessSC}}
+#' @seealso  \code{\link{DrImpute}}  \code{\link{preprocessSC}}
 
 getCls <- function(X, ks=10:15, dists=c("spearman", "pearson"), dim.reduc.prop = 0.05) {
 

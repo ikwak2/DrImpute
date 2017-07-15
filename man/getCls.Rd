@@ -12,9 +12,9 @@ getCls(X, ks = 10:15, dists = c("spearman", "pearson"),
 
 \item{ks}{Number of cell clustering groups. Default set to ks = 10:15.}
 
-\item{dim.reduc.prop}{Proportion of principal components to use for K-means clustering.}
+\item{dists}{Distribution matrices to use. Default is set to c("spearman", "pearson"). "euclidean" can be added as well.}
 
-\item{dist}{Distribution matrices to use. Default is set to c("spearman", "pearson"). "euclidean" can be added as well.}
+\item{dim.reduc.prop}{Proportion of principal components to use for K-means clustering.}
 }
 \value{
 A matrix object, Each row represent different clustering results.
@@ -35,7 +35,7 @@ Il-Youp Kwak, Wuming Gong, Kaoko Koyano-Nakagawa and Daniel J. Garry (2017+)
 DrImpute: Imputing dropout eveents in single cell RNA sequencing data
 }
 \seealso{
-\code{\link{SCimpute}}  \code{\link{preprocessSC}}
+\code{\link{DrImpute}}  \code{\link{preprocessSC}}
 }
 \author{
 Il-Youp Kwak

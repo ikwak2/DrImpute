@@ -12,6 +12,8 @@ DrImpute(X, ks = 10:15, dists = c("spearman", "pearson"), method = "mean",
 
 \item{ks}{Number of cell clustering groups. Default set to ks = 10:15.}
 
+\item{dists}{Distribution matrices to use. Default is set to c("spearman", "pearson"). "eucleadian" can be added as well.}
+
 \item{method}{Use "mean" for mean imputation, "med" for median imputation.}
 
 \item{cls}{User can manually provide clustering information. Using different base clusterings. each row represent different clusterings. each column represent each cell.}
@@ -19,8 +21,6 @@ DrImpute(X, ks = 10:15, dists = c("spearman", "pearson"), method = "mean",
 \item{seed}{User can provide a seed.}
 
 \item{zerop}{zero percentage of resulting imputation is at least zerop.}
-
-\item{dist}{Distribution matrices to use. Default is set to c("spearman", "pearson"). "eucleadian" can be added as well.}
 }
 \value{
 Imputed Gene expression matrix (gene by cell).
@@ -34,6 +34,7 @@ data(usoskin_ex)
 exdata <- preprocessSC(exdata)
 logdat <- log(exdata+1)
 cls <- getCls(logdat)
+
 logdat_imp <- DrImpute(logdat, cls = cls)
 
 }

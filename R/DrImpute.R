@@ -6,7 +6,7 @@
 #'
 #' @param ks Number of cell clustering groups. Default set to ks = 10:15. 
 #'
-#' @param dist Distribution matrices to use. Default is set to c("spearman", "pearson"). "eucleadian" can be added as well. 
+#' @param dists Distribution matrices to use. Default is set to c("spearman", "pearson"). "eucleadian" can be added as well. 
 #'
 #' @param method Use "mean" for mean imputation, "med" for median imputation.
 #'

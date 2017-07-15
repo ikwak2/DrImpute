@@ -10,13 +10,13 @@ preprocessSC(X, min.expressed.gene = 0, min.expressed.cell = 2,
 \arguments{
 \item{X}{Gene expression matrix (Gene by Cell).}
 
+\item{min.expressed.gene}{Cell level filtering criteria. For a given cell, if the number of expressed genes are less than min.expressed.gene, we filter it out.}
+
 \item{min.expressed.cell}{Gene level filtering criteria. For a given gene, if the number of expressed cells are less than min.expressed.cell, we filter it out.}
 
 \item{max.expressed.ratio}{Gene level filtering criteria. For a given gene, if the ratio of expressed cells are larger than max.expressed.ratio, we filter it out.}
 
 \item{normalize.by.size.effect}{Normaize using size factor.}
-
-\item{min.expressed.genes}{Cell level filtering criteria. For a given cell, if the number of expressed genes are less than min.expressed.gene, we filter it out.}
 }
 \value{
 Filtered gene expression matrix
@@ -35,7 +35,7 @@ Il-Youp Kwak, Wuming Gong, Kaoko Koyano-Nakagawa and Daniel J. Garry (2017+)
 DrImpute: Imputing dropout eveents in single cell RNA sequencing data
 }
 \seealso{
-\code{\link{SCimpute}}
+\code{\link{DrImpute}}
 }
 \author{
 Wuming Gong
