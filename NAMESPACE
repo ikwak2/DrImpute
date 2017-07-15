@@ -3,6 +3,6 @@ export(getCls)
 export(preprocessSC)
 
 importFrom("stats", "prcomp", "cor", "dist", "median", "kmeans")
-importFrom("Rcpp", "evalCpp", "enterRNGScope")
+importFrom("Rcpp", "evalCpp")
 
 useDynLib(DrImpute)
