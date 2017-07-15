@@ -1,7 +1,5 @@
-#include <armadillo>
 #include <RcppArmadillo.h>
 #include <Rcpp.h>
-#include <vector>
 
 using namespace Rcpp;
 using namespace arma;

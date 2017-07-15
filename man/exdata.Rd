@@ -1,6 +1,6 @@
 \docType{data}
-\name{usoskin_ex}
-\alias{usoskin_ex}
+\name{exdata}
+\alias{exdata}
 \title{Usoskin data}
 \usage{
 data(usoskin_ex)
@@ -15,7 +15,7 @@ data(usoskin_ex)
   Column names indicate four different cell types, "NF", "NP", "TH", and "PEP".
 }
 \examples{
-data(usoskin_ex)
+data(exdata)
 exdata <- preprocessSC(exdata)
 }
 \references{
