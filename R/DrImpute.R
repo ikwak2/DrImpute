@@ -26,7 +26,7 @@
 #'
 #' @examples
 #'
-#' data(usoskin_ex)
+#' data(exdata)
 #' exdata <- preprocessSC(exdata)
 #' logdat <- log(exdata+1)
 #' cls <- getCls(logdat)

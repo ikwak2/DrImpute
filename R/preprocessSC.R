@@ -22,7 +22,7 @@
 #' 
 #' @examples
 #'
-#' data(usoskin_ex)
+#' data(exdata)
 #' exdata <- preprocessSC(exdata)
 #'
 #' @seealso \code{\link{DrImpute}}
