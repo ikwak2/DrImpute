@@ -27,7 +27,7 @@ library(DrImpute)
 Firstly, genes that are expressed less than 2 cells are removed. 
 ```{r loading2}
 
-data(usoskin_ex)
+data(exdata)
 exdata <- preprocessSC(exdata)
 ```
 
