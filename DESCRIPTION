@@ -7,12 +7,14 @@ Author: Il-Youp Kwak with contributions from Wuming Gong
 Maintainer: Il-Youp Kwak <ilyoup.kwak@gmail.com>
 Depends:
     R (>= 3.1.0)
+Imports:
+    Rcpp
 Suggests:
     knitr,
     rmarkdown,
     devtools,
-    irlba,
-    roxygen2
+    roxygen2,
+    irlba
 License: GPL-3
 VignetteBuilder: knitr
 URL: https://github.com/ikwak2/DrImpute
