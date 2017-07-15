@@ -3,7 +3,7 @@
 \alias{exdata}
 \title{Usoskin data}
 \usage{
-data(usoskin_ex)
+data(exdata)
 }
 \description{
 
@@ -19,8 +19,7 @@ data(exdata)
 exdata <- preprocessSC(exdata)
 }
 \references{
-Usoskin D, Furlan A, Islam S, Abdo H, Lönnerberg P, Lou D, et
-al. Unbiased classification of sensory neuron types by large-scale
+Usoskin D et al. Unbiased classification of sensory neuron types by large-scale
 single-cell RNA sequencing. Nature Neuroscience. Nature Research;
 2015;18:145–53.
 }
