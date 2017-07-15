@@ -11,9 +11,10 @@ Suggests:
     knitr,
     rmarkdown,
     devtools,
+    irlba,
     roxygen2
 License: GPL-3
 VignetteBuilder: knitr
-URL : https://github.com/ikwak2/DrImpute
+URL: https://github.com/ikwak2/DrImpute
 LinkingTo: Rcpp, RcppArmadillo
 RoxygenNote: 6.0.1
