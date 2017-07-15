@@ -1,0 +1,8 @@
+
+load("../data/usoskin_ex.rda")
+
+exdata <- 
+
+lX_imp <- imp0CL(lnpX, method=met,  seed = seed)
+
+cls <- (lnpX, method=met,  seed = seed)

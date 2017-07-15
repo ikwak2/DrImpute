@@ -1,0 +1,8 @@
+export(DrImpute)
+export(getCls)
+export(preprocessSC)
+
+importFrom("stats", "prcomp", "cor", "dist", "kmeans")
+importFrom(Rcpp, evalCpp)
+
+useDynLib(DrImpute)
