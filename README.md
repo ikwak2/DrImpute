@@ -4,7 +4,7 @@ Il-Youp Kwak (<ilyoup.kwak@gmail.com>), with contributions from Wuming Gong.
 
 R/DrImpute is an R package for imputing dropout events in single-cell RNA-sequencing data. It improve many statistical tools used for scRNA-seq analysis that do not account for dropout events. 
 
-More details described [here](http://www.biorxiv.org/content/early/2017/08/28/181479)
+Details are described [here](http://www.biorxiv.org/content/early/2017/08/28/181479)
 
 
 ### installation
